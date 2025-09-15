@@ -1,0 +1,28 @@
+//Step 1
+var firstName = "Asan"
+var lastName = "Myrzakhmetov"
+var age = 19
+var birthYear = 2006
+var isStudent = true
+var height = 1.7
+var favoriteDish = "Lagman"
+
+let currentYear = 2025
+print(currentYear - birthYear)
+
+// Step 2
+var hobby = "hiking"
+var numberOfHobbies = 4
+var favoriteNumber = 7
+var isHobbyCreative = false
+var favoriteSeason = "winter"
+
+//Step 3
+var lifeStory: String
+lifeStory = "My name is \(firstName) \(lastName). I'm \(age) years old, and my height is \(height) meters. I have \(numberOfHobbies) different hobbies, but one of my favourite is \(hobby). Btw, my favourite dish is \(favoriteDish), favourite season is \(favoriteSeason) and favourite number is \(favoriteNumber)."
+
+//Step 4
+var lifeGoals: String
+lifeGoals = " In the future, I want to become a successful IOS Developer, hike over all the mountains and buy an expensive camera to record all of my adventures"
+
+print(lifeStory + lifeGoals)
