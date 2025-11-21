@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_3" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyFavorites_TableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="0XM-Cn-MDs">
+                                <rect key="frame" x="0.0" y="124" width="402" height="682"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="myTableViewCell" rowHeight="313" id="Tmc-aw-9Pr" customClass="MyTableViewCell" customModule="MyFavorites_TableView" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="402" height="313"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Tmc-aw-9Pr" id="RWU-xO-ihw">
+                                            <rect key="frame" x="0.0" y="0.0" width="402" height="313"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="тплдватпавлоптвалпатвпловатпвадлптавдлптвадлравтрлдавтравдлпоавпдваопшщавдопщашвповщшдопа" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8KX-aU-FDv">
+                                                    <rect key="frame" x="225" y="63" width="172" height="240"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" systemColor="systemGrayColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avengers.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="daP-QO-7PI">
+                                                    <rect key="frame" x="20" y="21" width="200" height="271"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="200" id="rpR-3V-Afr"/>
+                                                        <constraint firstAttribute="height" constant="300" id="yPl-z6-dee"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Avengers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFN-D0-Lkl">
+                                                    <rect key="frame" x="225" y="16" width="162" height="27"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="daP-QO-7PI" firstAttribute="top" secondItem="RWU-xO-ihw" secondAttribute="topMargin" constant="10" id="7Ef-LC-FkE"/>
+                                                <constraint firstItem="8KX-aU-FDv" firstAttribute="leading" secondItem="daP-QO-7PI" secondAttribute="trailing" constant="5" id="CHz-cG-2NE"/>
+                                                <constraint firstItem="daP-QO-7PI" firstAttribute="leading" secondItem="RWU-xO-ihw" secondAttribute="leadingMargin" id="CvD-Oe-xD6"/>
+                                                <constraint firstItem="8KX-aU-FDv" firstAttribute="top" secondItem="SFN-D0-Lkl" secondAttribute="bottom" constant="20" id="UlF-PZ-MQI"/>
+                                                <constraint firstItem="SFN-D0-Lkl" firstAttribute="top" secondItem="RWU-xO-ihw" secondAttribute="topMargin" constant="5" id="VY0-Ka-Vlw"/>
+                                                <constraint firstAttribute="trailing" secondItem="8KX-aU-FDv" secondAttribute="trailing" constant="5" id="fmn-Wj-Xeg"/>
+                                                <constraint firstAttribute="bottom" secondItem="SFN-D0-Lkl" secondAttribute="bottom" constant="270" id="iAg-kZ-o6L"/>
+                                                <constraint firstItem="SFN-D0-Lkl" firstAttribute="leading" secondItem="daP-QO-7PI" secondAttribute="trailing" constant="5" id="jrM-9b-Tq1"/>
+                                                <constraint firstAttribute="bottom" secondItem="8KX-aU-FDv" secondAttribute="bottom" constant="10" id="oDr-qM-UHH"/>
+                                                <constraint firstItem="SFN-D0-Lkl" firstAttribute="trailing" secondItem="RWU-xO-ihw" secondAttribute="trailingMargin" constant="5" id="sbg-0V-MEP"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="daP-QO-7PI" secondAttribute="bottom" constant="10" id="y3Z-KS-bro"/>
+                                                <constraint firstItem="daP-QO-7PI" firstAttribute="centerY" secondItem="RWU-xO-ihw" secondAttribute="centerY" id="yf3-th-UTf"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="favoritesImage" destination="daP-QO-7PI" id="Bgh-FI-D0g"/>
+                                            <outlet property="favoritesLabel" destination="8KX-aU-FDv" id="cXc-Fy-9j4"/>
+                                            <outlet property="favoritesTitle" destination="SFN-D0-Lkl" id="rhQ-sW-Lqs"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0XM-Cn-MDs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="O8o-Wf-P5p"/>
+                            <constraint firstItem="0XM-Cn-MDs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cmB-6Z-OYF"/>
+                            <constraint firstItem="0XM-Cn-MDs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mA9-Cs-Gzg"/>
+                            <constraint firstItem="0XM-Cn-MDs" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="zc3-3c-pQc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="0XM-Cn-MDs" id="CS8-wC-LcN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="22.388059701492537" y="3.432494279176201"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="avengers.jpg" width="1185" height="1800"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
