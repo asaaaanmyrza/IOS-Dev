@@ -9,21 +9,36 @@ import UIKit
 
 class SozViewController: UIViewController {
 
+    @IBOutlet weak var sozTimer: UILabel!
+    @IBOutlet weak var sozExample3: UILabel!
+    @IBOutlet weak var sozExample2: UILabel!
+    @IBOutlet weak var sozExample1: UILabel!
+    @IBOutlet weak var sozDefinition: UITextView!
+    @IBOutlet weak var sozLabel: UILabel!
+    
+    var sozService = SozService()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        sozService.delegate = self
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction private func buttonDidTap() {
+        sozService.fetchSoz()
     }
-    */
 
+}
+
+extension SozViewController: SozServiceDelegate {
+    func onSozDidUpdate(soz: SozModel) {
+        configure(soz: soz)
+    }
+    
+    private func configure(soz: SozModel) {
+        sozLabel.text = soz.word
+        sozDefinition.text = soz.description
+        sozExample1.text = soz.examples[0]
+        sozExample2.text = soz.examples[1]
+        sozExample3.text = soz.examples[2]
+    }
 }

@@ -1,29 +1,40 @@
-//
-//  OlenViewController.swift
-//  soz of the day
-//
-//  Created by Асан Мырзахметов on 10.12.2025.
-//
-
 import UIKit
+import Kingfisher
 
 class OlenViewController: UIViewController {
 
+    @IBOutlet weak var olenTimer: UILabel!
+    @IBOutlet weak var authorName: UILabel!
+    @IBOutlet weak var olenQaz: UITextView!
+    @IBOutlet weak var olenEn: UITextView!
+    @IBOutlet weak var olenDescription: UITextView!
+    @IBOutlet weak var authorImage: UIImageView!
+    
+    var olenService = OlenService()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        olenService.delegate = self
+    }
+    @IBAction func buttonDidTap(_ sender: UIButton) {
+        olenService.fetchOlen()
+    }
+}
 
-        // Do any additional setup after loading the view.
+extension OlenViewController: OlenServiceDelegate {
+    func onOlenDidUpdate(olen: OlenModel) {
+        configure(olen: olen)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func configure(olen: OlenModel) {
+        authorName.text = olen.author
+        authorImage.kf.setImage(with: URL(string: olen.author_image))
+        
+        olenQaz.text = olen.q_text
+        olenEn.text = olen.en_text
+        
+        olenDescription.text = olen.description
+        
+        
     }
-    */
-
 }

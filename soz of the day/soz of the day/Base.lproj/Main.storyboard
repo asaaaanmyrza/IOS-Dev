@@ -20,7 +20,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="JDP-lX-bnV">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soz_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kbp-8x-1mP">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soz_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kbp-8x-1mP">
                                 <rect key="frame" x="0.0" y="176" width="414" height="237"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="237" id="D5V-aJ-tPG"/>
@@ -34,12 +34,6 @@ which is the largest member of the dog family, living and hunting in packs.</str
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kelesi soz: 2:45" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Lc-xg-DKK">
-                                <rect key="frame" x="151.5" y="148" width="111" height="18"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <color key="textColor" systemColor="secondaryLabelColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="description_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="aX2-Yr-iEt">
                                 <rect key="frame" x="16" y="433" width="382" height="135"/>
                                 <constraints>
@@ -75,6 +69,28 @@ which is the largest member of the dog family, living and hunting in packs.</str
                                     </label>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D4i-bz-Iln">
+                                <rect key="frame" x="102" y="609" width="193" height="131"/>
+                                <color key="backgroundColor" red="0.3254394531" green="0.6215820312" blue="0.8823242188" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="131" id="deS-cD-Yl1"/>
+                                    <constraint firstAttribute="width" constant="193" id="mQh-u3-WYx"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="TEST">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="40"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonDidTap" destination="BYZ-38-t0r" eventType="touchUpInside" id="yMr-ZV-nfI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kelesi soz: 2:45" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Lc-xg-DKK">
+                                <rect key="frame" x="151.5" y="578" width="111" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -83,17 +99,21 @@ which is the largest member of the dog family, living and hunting in packs.</str
                             <constraint firstItem="Kbp-8x-1mP" firstAttribute="bottom" secondItem="god-K7-7bQ" secondAttribute="bottom" constant="30" id="4U2-eS-Kya"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aX2-Yr-iEt" secondAttribute="trailing" constant="16" id="7fu-6q-FtU"/>
                             <constraint firstItem="w8e-93-Pnw" firstAttribute="leading" secondItem="aX2-Yr-iEt" secondAttribute="leading" constant="26" id="7m0-5u-sbi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="D4i-bz-Iln" secondAttribute="trailing" constant="119" id="8yh-hi-RDx"/>
                             <constraint firstItem="JDP-lX-bnV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="AFq-KQ-Tcw"/>
                             <constraint firstItem="8TZ-UU-pgM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="GCb-dp-BEw"/>
                             <constraint firstItem="JDP-lX-bnV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Hkj-i7-r3o"/>
-                            <constraint firstItem="3Lc-xg-DKK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="J0E-pH-EfY"/>
+                            <constraint firstItem="3Lc-xg-DKK" firstAttribute="top" secondItem="aX2-Yr-iEt" secondAttribute="bottom" constant="10" id="I8H-Kx-3PH"/>
+                            <constraint firstItem="D4i-bz-Iln" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="102" id="JO9-rI-rvI"/>
                             <constraint firstItem="Kbp-8x-1mP" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="K4H-xm-gb5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8TZ-UU-pgM" secondAttribute="trailing" constant="35" id="Lu6-pd-j0s"/>
+                            <constraint firstItem="D4i-bz-Iln" firstAttribute="top" secondItem="aX2-Yr-iEt" secondAttribute="bottom" constant="41" id="Mo1-XI-xwx"/>
                             <constraint firstItem="Kbp-8x-1mP" firstAttribute="trailingMargin" secondItem="god-K7-7bQ" secondAttribute="trailing" constant="27" id="QTO-gX-U8s"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="D4i-bz-Iln" secondAttribute="bottom" constant="39" id="US6-a1-7GM"/>
                             <constraint firstItem="Kbp-8x-1mP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UhC-dV-Cug"/>
+                            <constraint firstItem="3Lc-xg-DKK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WDJ-8k-eBw"/>
                             <constraint firstAttribute="bottom" secondItem="JDP-lX-bnV" secondAttribute="bottom" id="YDG-9K-rBN"/>
                             <constraint firstItem="w8e-93-Pnw" firstAttribute="top" secondItem="aX2-Yr-iEt" secondAttribute="top" constant="22" id="ctB-8a-2rk"/>
-                            <constraint firstItem="Kbp-8x-1mP" firstAttribute="top" secondItem="3Lc-xg-DKK" secondAttribute="bottom" constant="10" id="gmd-oa-UHt"/>
                             <constraint firstItem="8TZ-UU-pgM" firstAttribute="top" secondItem="Kbp-8x-1mP" secondAttribute="top" constant="10" id="nFI-BY-wvG"/>
                             <constraint firstItem="Kbp-8x-1mP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="ntq-9t-JPO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JDP-lX-bnV" secondAttribute="trailing" id="pdA-8Q-Su7"/>
@@ -112,10 +132,18 @@ which is the largest member of the dog family, living and hunting in packs.</str
                             </hierarchicalColors>
                         </imageReference>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="sozDefinition" destination="god-K7-7bQ" id="pvx-Eh-TpZ"/>
+                        <outlet property="sozExample1" destination="5ax-we-uPv" id="XOD-Ud-jUR"/>
+                        <outlet property="sozExample2" destination="MgD-v3-SVB" id="sQK-k0-c3E"/>
+                        <outlet property="sozExample3" destination="xP4-tc-ixr" id="DFT-Vd-jQv"/>
+                        <outlet property="sozLabel" destination="8TZ-UU-pgM" id="Prh-fs-VS0"/>
+                        <outlet property="sozTimer" destination="3Lc-xg-DKK" id="nzH-oK-3kO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-669.46564885496184" y="735.21126760563379"/>
+            <point key="canvasLocation" x="-669.56521739130437" y="734.59821428571422"/>
         </scene>
         <!--kókjıek-->
         <scene sceneID="3bd-BJ-ZQB">
@@ -128,29 +156,75 @@ which is the largest member of the dog family, living and hunting in packs.</str
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kokjiek_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wey-Rx-hNv">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="sbG-QX-0dk">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <color key="backgroundColor" red="0.597556631" green="0.47109141739999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="sbG-QX-0dk">
+                                <rect key="frame" x="0.0" y="96" width="414" height="633"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="kokjiekId" rowHeight="140" id="NUG-NY-OJ3" customClass="KokjiekViewCell" customModule="soz_of_the_day" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="414" height="140"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="kokjiekId" rowHeight="166" id="NUG-NY-OJ3" customClass="KokjiekViewCell" customModule="soz_of_the_day" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="414" height="166"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NUG-NY-OJ3" id="f61-CF-gDw">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="166"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kokjiek_feed_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="v84-Ow-Mk4">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="166"/>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="G4s-sf-cKa">
+                                                    <rect key="frame" x="20" y="13" width="140" height="140"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="140" id="TsR-K8-V0Z"/>
+                                                        <constraint firstAttribute="height" constant="140" id="yLG-fU-hy5"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Useful Kazakh Words" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lc4-OD-W0f">
+                                                    <rect key="frame" x="168" y="15" width="239" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="30" id="3Hk-VG-mTE"/>
+                                                        <constraint firstAttribute="width" constant="239" id="jKb-vM-Q1s"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="“The harmless person is the one who gets angry and shouts. Be afraid of the person who becomes silent when angry.”" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IOC-nk-BXf">
+                                                    <rect key="frame" x="168" y="45" width="239" height="109"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="239" id="fEc-U2-Lba"/>
+                                                        <constraint firstAttribute="height" constant="109" id="udK-Sy-Jvn"/>
+                                                    </constraints>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Lc4-OD-W0f" firstAttribute="top" secondItem="f61-CF-gDw" secondAttribute="top" constant="15" id="3FV-4s-Hkx"/>
+                                                <constraint firstAttribute="bottom" secondItem="v84-Ow-Mk4" secondAttribute="bottom" id="8Ob-dz-ZDi"/>
+                                                <constraint firstAttribute="bottom" secondItem="G4s-sf-cKa" secondAttribute="bottom" constant="13" id="HjA-RS-zm2"/>
+                                                <constraint firstItem="G4s-sf-cKa" firstAttribute="leading" secondItem="f61-CF-gDw" secondAttribute="leading" constant="20" symbolic="YES" id="Jpv-qy-xzT"/>
+                                                <constraint firstItem="G4s-sf-cKa" firstAttribute="top" secondItem="f61-CF-gDw" secondAttribute="top" constant="13" id="NDl-Rf-aq4"/>
+                                                <constraint firstItem="IOC-nk-BXf" firstAttribute="leading" secondItem="G4s-sf-cKa" secondAttribute="trailing" constant="8" symbolic="YES" id="UA0-ft-rUF"/>
+                                                <constraint firstItem="IOC-nk-BXf" firstAttribute="top" secondItem="Lc4-OD-W0f" secondAttribute="bottom" id="cBl-Ur-Ogx"/>
+                                                <constraint firstAttribute="trailing" secondItem="v84-Ow-Mk4" secondAttribute="trailing" id="dHi-gK-Yuh"/>
+                                                <constraint firstItem="Lc4-OD-W0f" firstAttribute="leading" secondItem="G4s-sf-cKa" secondAttribute="trailing" constant="8" symbolic="YES" id="i8Z-22-xzW"/>
+                                                <constraint firstItem="v84-Ow-Mk4" firstAttribute="leading" secondItem="f61-CF-gDw" secondAttribute="leading" id="pO4-ge-Z44"/>
+                                                <constraint firstItem="v84-Ow-Mk4" firstAttribute="top" secondItem="f61-CF-gDw" secondAttribute="top" id="tbv-Tm-uUi"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <sections/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ca5-CY-ehD"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="sbG-QX-0dk" secondAttribute="bottom" id="3Cb-Yi-qTE"/>
                             <constraint firstItem="Wey-Rx-hNv" firstAttribute="leading" secondItem="Ca5-CY-ehD" secondAttribute="leading" id="5F5-UA-gZ3"/>
+                            <constraint firstItem="Ca5-CY-ehD" firstAttribute="bottom" secondItem="sbG-QX-0dk" secondAttribute="bottom" constant="50" id="E7p-S6-ySX"/>
                             <constraint firstItem="Wey-Rx-hNv" firstAttribute="top" secondItem="x48-C1-k5D" secondAttribute="top" id="Q8N-is-kYQ"/>
                             <constraint firstItem="Wey-Rx-hNv" firstAttribute="trailing" secondItem="Ca5-CY-ehD" secondAttribute="trailing" id="Tau-Po-uxF"/>
-                            <constraint firstItem="sbG-QX-0dk" firstAttribute="top" secondItem="x48-C1-k5D" secondAttribute="top" id="V6V-jq-bow"/>
+                            <constraint firstItem="sbG-QX-0dk" firstAttribute="top" secondItem="Ca5-CY-ehD" secondAttribute="top" id="d2P-Yv-C0O"/>
                             <constraint firstAttribute="bottom" secondItem="Wey-Rx-hNv" secondAttribute="bottom" id="f9P-6f-QP7"/>
                             <constraint firstItem="sbG-QX-0dk" firstAttribute="leading" secondItem="x48-C1-k5D" secondAttribute="leading" id="l9o-Kw-IvW"/>
                             <constraint firstItem="sbG-QX-0dk" firstAttribute="trailing" secondItem="Ca5-CY-ehD" secondAttribute="trailing" id="maR-eU-hSF"/>
@@ -172,7 +246,7 @@ which is the largest member of the dog family, living and hunting in packs.</str
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rkb-iy-dXX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="101.5267175572519" y="735.91549295774655"/>
+            <point key="canvasLocation" x="101.44927536231884" y="735.26785714285711"/>
         </scene>
         <!--óleń-->
         <scene sceneID="ZMd-9a-bPb">
@@ -243,11 +317,28 @@ which is the largest member of the dog family, living and hunting in packs.</str
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lat-3P-LfO">
+                                <rect key="frame" x="169.5" y="722" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonDidTap:" destination="Iqw-i5-zVo" eventType="touchUpInside" id="jzp-8K-D2P"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kelesi olen: 2:45" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4El-Fp-LS2">
+                                <rect key="frame" x="148.5" y="671" width="117" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HAY-Ap-8mn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Feg-Vf-Q4J" firstAttribute="centerX" secondItem="Qtm-hr-xqS" secondAttribute="centerX" id="3qi-QV-prS"/>
+                            <constraint firstItem="Lat-3P-LfO" firstAttribute="centerX" secondItem="Qtm-hr-xqS" secondAttribute="centerX" id="58B-tO-j8C"/>
                             <constraint firstItem="4sS-nM-MLq" firstAttribute="trailing" secondItem="SUe-l5-tET" secondAttribute="trailing" constant="3" id="7Nn-Gr-Oky"/>
                             <constraint firstItem="SUe-l5-tET" firstAttribute="top" secondItem="4sS-nM-MLq" secondAttribute="top" constant="24" id="7bv-d1-hks"/>
                             <constraint firstItem="4sS-nM-MLq" firstAttribute="centerX" secondItem="Qtm-hr-xqS" secondAttribute="centerX" id="AIq-hY-IQG"/>
@@ -267,6 +358,7 @@ which is the largest member of the dog family, living and hunting in packs.</str
                             <constraint firstItem="67W-Qs-3rw" firstAttribute="centerX" secondItem="Qtm-hr-xqS" secondAttribute="centerX" id="XTP-CL-Lm2"/>
                             <constraint firstItem="SUe-l5-tET" firstAttribute="leading" secondItem="CaF-Bz-9de" secondAttribute="trailing" constant="8" id="ZUi-8F-x05"/>
                             <constraint firstItem="bQ4-8z-HPI" firstAttribute="centerX" secondItem="Qtm-hr-xqS" secondAttribute="centerX" id="a91-mU-ae9"/>
+                            <constraint firstItem="4El-Fp-LS2" firstAttribute="top" secondItem="bQ4-8z-HPI" secondAttribute="bottom" constant="10" id="bbP-gS-N7v"/>
                             <constraint firstItem="67W-Qs-3rw" firstAttribute="leading" secondItem="Feg-Vf-Q4J" secondAttribute="leading" constant="10" id="c7I-gr-rY8"/>
                             <constraint firstItem="Feg-Vf-Q4J" firstAttribute="trailing" secondItem="67W-Qs-3rw" secondAttribute="trailing" constant="10" id="ePl-0m-poU"/>
                             <constraint firstItem="rlX-rD-p0L" firstAttribute="left" secondItem="Qtm-hr-xqS" secondAttribute="left" id="f4R-R9-p7B"/>
@@ -274,6 +366,9 @@ which is the largest member of the dog family, living and hunting in packs.</str
                             <constraint firstAttribute="bottom" secondItem="rlX-rD-p0L" secondAttribute="bottom" id="mEb-1S-wgU"/>
                             <constraint firstItem="67W-Qs-3rw" firstAttribute="top" secondItem="0Ae-tc-dyy" secondAttribute="bottom" constant="3" id="o3h-yo-Dml"/>
                             <constraint firstItem="4sS-nM-MLq" firstAttribute="bottom" secondItem="CaF-Bz-9de" secondAttribute="bottom" constant="4" id="tIG-wJ-nTl"/>
+                            <constraint firstItem="Lat-3P-LfO" firstAttribute="top" secondItem="4El-Fp-LS2" secondAttribute="bottom" constant="33" id="uN3-0A-csx"/>
+                            <constraint firstItem="4El-Fp-LS2" firstAttribute="centerX" secondItem="Qtm-hr-xqS" secondAttribute="centerX" id="vCV-1Z-lAE"/>
+                            <constraint firstItem="HAY-Ap-8mn" firstAttribute="bottom" secondItem="Lat-3P-LfO" secondAttribute="bottom" constant="22" id="vju-bF-DG9"/>
                             <constraint firstItem="Xnr-Ea-AmC" firstAttribute="centerX" secondItem="Qtm-hr-xqS" secondAttribute="centerX" id="z1E-7j-daf"/>
                             <constraint firstItem="CaF-Bz-9de" firstAttribute="top" secondItem="4sS-nM-MLq" secondAttribute="top" constant="4" id="zV6-wt-INF"/>
                         </constraints>
@@ -287,6 +382,14 @@ which is the largest member of the dog family, living and hunting in packs.</str
                             </hierarchicalColors>
                         </imageReference>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="authorImage" destination="CaF-Bz-9de" id="3cM-rZ-Uuh"/>
+                        <outlet property="authorName" destination="SUe-l5-tET" id="k3h-dR-nN5"/>
+                        <outlet property="olenDescription" destination="Xnr-Ea-AmC" id="RSo-JE-MJX"/>
+                        <outlet property="olenEn" destination="67W-Qs-3rw" id="WHK-Jx-D1L"/>
+                        <outlet property="olenQaz" destination="0Ae-tc-dyy" id="7TD-wg-Jih"/>
+                        <outlet property="olenTimer" destination="4El-Fp-LS2" id="opm-jw-rv8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aXO-dD-NOH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -322,6 +425,7 @@ which is the largest member of the dog family, living and hunting in packs.</str
         <image name="gradient_background.png" width="848" height="1764"/>
         <image name="images-2.jpeg" width="193" height="261"/>
         <image name="kokjiek_background.png" width="848" height="1764"/>
+        <image name="kokjiek_feed_background.png" width="786" height="332"/>
         <image name="olen_background.png" width="726" height="510"/>
         <image name="olen_desc_background.png" width="658" height="336"/>
         <image name="olender_background.png" width="848" height="1764"/>

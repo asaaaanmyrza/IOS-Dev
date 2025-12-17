@@ -29,7 +29,7 @@ extension KokjiekViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        KokjiekTableView.dequeueReusableCell(withIdentifier: "KokjiekCell", for: indexPath)
+        KokjiekTableView.dequeueReusableCell(withIdentifier: "kokjiekId", for: indexPath)
     }
     
     
