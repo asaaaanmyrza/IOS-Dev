@@ -1,0 +1,164 @@
+{
+    "olen": [
+      {
+        "id": 1,
+        "author": "Abai Qunanbaiuly",
+        "q_text": "Qarañğı tünde tau qalğıp",
+        "en_text": "The mountain rests on a dark night",
+        "description": "A poetic image of calm and silence. Abai uses nature to convey stillness and contemplation.",
+        "author_image": "https://cdn.jsdelivr.net/gh/asaaaanmyrza/IOS-Dev@e1a2c1e3cd972b748adfd702d1606a30dcf1984f/images/abai_image.png"
+      },
+      {
+        "id": 2,
+        "author": "Abai Qunanbaiuly",
+        "q_text": "Aqyl, qayrat, jürek birdey usta",
+        "en_text": "Mind, will, and heart must work together",
+        "description": "This line explains Abai’s philosophy of balance between intellect, strength of character, and emotion.",
+        "author_image": "https://cdn.jsdelivr.net/gh/asaaaanmyrza/IOS-Dev@e1a2c1e3cd972b748adfd702d1606a30dcf1984f/images/abai_image.png"
+      },
+      {
+        "id": 3,
+        "author": "Abai Qunanbaiuly",
+        "q_text": "Adam bolam deseñiz",
+        "en_text": "If you want to become a true human",
+        "description": "A moral instruction encouraging personal growth, responsibility, and ethical behavior.",
+        "author_image": "https://cdn.jsdelivr.net/gh/asaaaanmyrza/IOS-Dev@e1a2c1e3cd972b748adfd702d1606a30dcf1984f/images/abai_image.png"
+      },
+      {
+        "id": 4,
+        "author": "Abai Qunanbaiuly",
+        "q_text": "Öleñ – sözdiñ patşasy, söz saraasy",
+        "en_text": "Poetry is the king of words, the finest of speech",
+        "description": "Abai elevates poetry as the highest form of language and expression.",
+        "author_image": "https://cdn.jsdelivr.net/gh/asaaaanmyrza/IOS-Dev@e1a2c1e3cd972b748adfd702d1606a30dcf1984f/images/abai_image.png"
+      },
+      {
+        "id": 5,
+        "author": "Abai Qunanbaiuly",
+        "q_text": "Özime senbe, jas oyla",
+        "en_text": "Do not trust only yourself, think young one",
+        "description": "Advice on humility and critical thinking, warning against arrogance.",
+        "author_image": "https://cdn.jsdelivr.net/gh/asaaaanmyrza/IOS-Dev@e1a2c1e3cd972b748adfd702d1606a30dcf1984f/images/abai_image.png"
+      },
+      {
+        "id": 6,
+        "author": "Moldanazar",
+        "q_text": "Jel men birge jüregim äueler",
+        "en_text": "My heart sings along with the wind",
+        "description": "A lyrical metaphor connecting emotions with nature and freedom.",
+        "author_image": "https://cdn.jsdelivr.net/gh/asaaaanmyrza/IOS-Dev@e1a2c1e3cd972b748adfd702d1606a30dcf1984f/images/moldanazar.jpeg"
+      },
+      {
+        "id": 7,
+        "author": "Moldanazar",
+        "q_text": "Sol bir künder qayta oralmas",
+        "en_text": "Those days will never return",
+        "description": "A nostalgic reflection on the irreversibility of time.",
+        "author_image": "https://cdn.jsdelivr.net/gh/asaaaanmyrza/IOS-Dev@e1a2c1e3cd972b748adfd702d1606a30dcf1984f/images/moldanazar.jpeg"
+      },
+      {
+        "id": 8,
+        "author": "Moldanazar",
+        "q_text": "Tınıştıq izdedim öz jüregimnen",
+        "en_text": "I searched for peace within my heart",
+        "description": "Inner peace is presented as something personal and internal.",
+        "author_image": "https://cdn.jsdelivr.net/gh/asaaaanmyrza/IOS-Dev@e1a2c1e3cd972b748adfd702d1606a30dcf1984f/images/moldanazar.jpeg"
+      },
+      {
+        "id": 9,
+        "author": "Moldanazar",
+        "q_text": "Sen kelseñ, älem jarqyn",
+        "en_text": "When you come, the world becomes bright",
+        "description": "A romantic line showing how a loved one transforms perception of life.",
+        "author_image": "https://cdn.jsdelivr.net/gh/asaaaanmyrza/IOS-Dev@e1a2c1e3cd972b748adfd702d1606a30dcf1984f/images/moldanazar.jpeg"
+      },
+      {
+        "id": 10,
+        "author": "Moldanazar",
+        "q_text": "Jolym uzaq, biraq ümit tirі",
+        "en_text": "My road is long, but hope is alive",
+        "description": "Endurance and optimism despite difficulties.",
+        "author_image": "https://cdn.jsdelivr.net/gh/asaaaanmyrza/IOS-Dev@e1a2c1e3cd972b748adfd702d1606a30dcf1984f/images/moldanazar.jpeg"
+      },
+      {
+        "id": 11,
+        "author": "ARO",
+        "q_text": "Tünde oylar menimen qaldy",
+        "en_text": "Thoughts stayed with me through the night",
+        "description": "A line about introspection and emotional heaviness during solitude.",
+        "author_image": "https://cdn.jsdelivr.net/gh/asaaaanmyrza/IOS-Dev@e1a2c1e3cd972b748adfd702d1606a30dcf1984f/images/aro_image.jpeg"
+      },
+      {
+        "id": 12,
+        "author": "ARO",
+        "q_text": "Jürekte aytılmağan söz bar",
+        "en_text": "There are unspoken words in the heart",
+        "description": "Represents suppressed emotions and feelings left unsaid.",
+        "author_image": "https://cdn.jsdelivr.net/gh/asaaaanmyrza/IOS-Dev@e1a2c1e3cd972b748adfd702d1606a30dcf1984f/images/aro_image.jpeg"
+      },
+      {
+        "id": 13,
+        "author": "ARO",
+        "q_text": "Uaqyt öter, iz qalady",
+        "en_text": "Time passes, but traces remain",
+        "description": "A philosophical statement about memory and lasting impact.",
+        "author_image": "https://cdn.jsdelivr.net/gh/asaaaanmyrza/IOS-Dev@e1a2c1e3cd972b748adfd702d1606a30dcf1984f/images/aro_image.jpeg"
+      },
+      {
+        "id": 14,
+        "author": "ARO",
+        "q_text": "Men özimni izdep jürmin",
+        "en_text": "I am searching for myself",
+        "description": "A theme of identity and self-discovery.",
+        "author_image": "https://cdn.jsdelivr.net/gh/asaaaanmyrza/IOS-Dev@e1a2c1e3cd972b748adfd702d1606a30dcf1984f/images/aro_image.jpeg"
+      },
+      {
+        "id": 15,
+        "author": "ARO",
+        "q_text": "Sezimderdiñ salmağı auyr",
+        "en_text": "The weight of feelings is heavy",
+        "description": "Emphasizes emotional burden using physical metaphor.",
+        "author_image": "https://cdn.jsdelivr.net/gh/asaaaanmyrza/IOS-Dev@e1a2c1e3cd972b748adfd702d1606a30dcf1984f/images/aro_image.jpeg"
+      },
+      {
+        "id": 16,
+        "author": "Qazaq halyq änі",
+        "q_text": "Elim-ai, elim-ai",
+        "en_text": "Oh my people, my land",
+        "description": "A cry of sorrow and love for the homeland, expressing collective pain.",
+        "author_image": "https://cdn.jsdelivr.net/gh/asaaaanmyrza/IOS-Dev@e1a2c1e3cd972b748adfd702d1606a30dcf1984f/images/kazakh_folk.jpg"
+      },
+      {
+        "id": 17,
+        "author": "Qazaq halyq änі",
+        "q_text": "Ata qonys, altın jer",
+        "en_text": "Ancestral land, golden soil",
+        "description": "Highlights the sacred value of homeland and heritage.",
+        "author_image": "https://cdn.jsdelivr.net/gh/asaaaanmyrza/IOS-Dev@e1a2c1e3cd972b748adfd702d1606a30dcf1984f/images/kazakh_folk.jpg"
+      },
+      {
+        "id": 18,
+        "author": "Qazaq halyq änі",
+        "q_text": "Köñilim tolqyn, jüregim joq tynys",
+        "en_text": "My soul is restless, my heart has no calm",
+        "description": "Describes emotional unrest and inner turmoil.",
+        "author_image": "https://cdn.jsdelivr.net/gh/asaaaanmyrza/IOS-Dev@e1a2c1e3cd972b748adfd702d1606a30dcf1984f/images/kazakh_folk.jpg"
+      },
+      {
+        "id": 19,
+        "author": "Abai Qunanbaiuly",
+        "q_text": "Payda, maqtan bärin tastap",
+        "en_text": "Leave behind profit and vanity",
+        "description": "A moral call to reject materialism and ego.",
+        "author_image": "https://cdn.jsdelivr.net/gh/asaaaanmyrza/IOS-Dev@e1a2c1e3cd972b748adfd702d1606a30dcf1984f/images/abai_image.png"
+      },
+      {
+        "id": 20,
+        "author": "Abai Qunanbaiuly",
+        "q_text": "Aşu – duşpan, aqyl – dost",
+        "en_text": "Anger is an enemy, wisdom is a friend",
+        "description": "A concise ethical formula contrasting destructive emotion with guiding intellect.",
+        "author_image": "https://cdn.jsdelivr.net/gh/asaaaanmyrza/IOS-Dev@e1a2c1e3cd972b748adfd702d1606a30dcf1984f/images/abai_image.png"
+      }
+    ]
+}
