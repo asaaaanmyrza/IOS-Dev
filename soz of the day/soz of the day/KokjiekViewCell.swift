@@ -6,9 +6,14 @@
 //
 
 import UIKit
+import Kingfisher
 
 class KokjiekViewCell: UITableViewCell {
 
+    @IBOutlet weak var kokjiekDescription: UITextView!
+    @IBOutlet weak var kokjiekTitle: UILabel!
+    @IBOutlet weak var kokjiekImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -19,5 +24,9 @@ class KokjiekViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    func configure(with video: FeedModel) {
+        kokjiekTitle.text = video.title
+        kokjiekDescription.text = video.description
+        kokjiekImage.kf.setImage(with: URL(string: video.thumbnail))
+    }
 }

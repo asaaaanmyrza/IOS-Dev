@@ -15,6 +15,7 @@ class OlenViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         olenService.delegate = self
+        olenService.fetchOlen()
     }
     @IBAction func buttonDidTap(_ sender: UIButton) {
         olenService.fetchOlen()

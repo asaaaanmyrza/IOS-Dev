@@ -21,6 +21,7 @@ class SozViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         sozService.delegate = self
+        sozService.fetchSoz()
     }
     
     @IBAction private func buttonDidTap() {
