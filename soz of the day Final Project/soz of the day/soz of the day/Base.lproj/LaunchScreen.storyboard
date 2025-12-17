@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24412" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24405"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_screen.png" translatesAutoresizingMaskIntoConstraints="NO" id="UGx-fD-x9s">
+                                <rect key="frame" x="0.0" y="-12" width="393" height="866"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <constraints>
+                            <constraint firstItem="UGx-fD-x9s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7Up-Yu-5kv"/>
+                            <constraint firstItem="UGx-fD-x9s" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-130" id="KiK-cU-Lx3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UGx-fD-x9s" secondAttribute="trailing" id="TPu-rS-CcE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UGx-fD-x9s" secondAttribute="bottom" constant="-70" id="e1Z-Wg-oQQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launch_screen.png" width="848" height="1764"/>
+    </resources>
+</document>

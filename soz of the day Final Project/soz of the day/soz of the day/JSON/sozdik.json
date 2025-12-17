@@ -1,0 +1,204 @@
+{
+    "soz": [
+      {
+        "id": 1,
+        "word": "dostyq",
+        "description": "Friendship; a relationship based on trust and mutual support.",
+        "examples": [
+          "Bizdiñ dostyğymyz berik",
+          "Dostyq adamğa quwat beredi",
+          "Şynayı dostyq uaqytpen sınaladı"
+        ]
+      },
+      {
+        "id": 2,
+        "word": "eñbek",
+        "description": "Work or labor; effort applied to achieve a goal.",
+        "examples": [
+          "Eñbek etken adam jetistikke jetedi",
+          "Eñbek tabystyñ negizi",
+          "Ol bar küshin eñbekke arnadı"
+        ]
+      },
+      {
+        "id": 3,
+        "word": "arman",
+        "description": "Dream or aspiration for the future.",
+        "examples": [
+          "Meniñ armanym ulken",
+          "Armanı bar adam alğa jürer",
+          "Ol balalıq armanyn orındadı"
+        ]
+      },
+      {
+        "id": 4,
+        "word": "bilim",
+        "description": "Knowledge gained through learning and experience.",
+        "examples": [
+          "Bilim adamğa jol aşıp beredi",
+          "Bilim men eñbek qatar jürer",
+          "Ol bilim aluğa talpynady"
+        ]
+      },
+      {
+        "id": 5,
+        "word": "senim",
+        "description": "Trust or belief in someone or something.",
+        "examples": [
+          "Senim qatynasty nığaytadı",
+          "Ol özine senedi",
+          "Senimsiz dostyq bolmaydı"
+        ]
+      },
+      {
+        "id": 6,
+        "word": "baqyt",
+        "description": "Happiness; a state of well-being and joy.",
+        "examples": [
+          "Baqyt otbasynan bastaladı",
+          "Ol özin baqytty sezindi",
+          "Nağız baqyt qarağay emes"
+        ]
+      },
+      {
+        "id": 7,
+        "word": "sabaq",
+        "description": "Lesson; something learned from study or experience.",
+        "examples": [
+          "Bul jağday mağan sabaq boldy",
+          "Sabaq uaqyty bastaldy",
+          "Ömir sabaqtary qymbat"
+        ]
+      },
+      {
+        "id": 8,
+        "word": "ömır",
+        "description": "Life; the existence of a person.",
+        "examples": [
+          "Ömir qysqa",
+          "Ömirde täjiribe köp",
+          "Ol ömirin eñbekke arnadı"
+        ]
+      },
+      {
+        "id": 9,
+        "word": "qurmet",
+        "description": "Respect shown toward others.",
+        "examples": [
+          "Ulkenge qurmet körsetu kerek",
+          "Qurmet bar jerde tınıştıq bar",
+          "Ol muğalimine qurmetpen qaraýdı"
+        ]
+      },
+      {
+        "id": 10,
+        "word": "jattyğu",
+        "description": "Training or practice to improve skills.",
+        "examples": [
+          "Kün sayın jattyğu jasaydı",
+          "Jattyğu nätije beredi",
+          "Ol sporttyq jattyğumen aynalysady"
+        ]
+      },
+      {
+        "id": 11,
+        "word": "uaqyt",
+        "description": "Time; a limited and valuable resource.",
+        "examples": [
+          "Uaqytty bosqa ketirme",
+          "Uaqyt tez ötedі",
+          "Uaqytty dūrıs paýdalanu qajet"
+        ]
+      },
+      {
+        "id": 12,
+        "word": "maksat",
+        "description": "Goal or objective to be achieved.",
+        "examples": [
+          "Onıñ maksatȳ anıq",
+          "Maksat qoyu jetistikke jeteler",
+          "Ol öz maksatyna jetti"
+        ]
+      },
+      {
+        "id": 13,
+        "word": "talant",
+        "description": "Natural ability or skill.",
+        "examples": [
+          "Ol muzıkalıq talantqa ie",
+          "Talant eñbekpen ashañady",
+          "Är adamda talant bar"
+        ]
+      },
+      {
+        "id": 14,
+        "word": "denşaulıq",
+        "description": "Health; physical and mental well-being.",
+        "examples": [
+          "Denşaulıq — basty baylyq",
+          "Denşaulıqqa kümän qaraýdı",
+          "Sport denşaulıqty nığaytadı"
+        ]
+      },
+      {
+        "id": 15,
+        "word": "tabys",
+        "description": "Success achieved through effort.",
+        "examples": [
+          "Tabys eñbekpen keledi",
+          "Ol ulken tabysqa jetti",
+          "Tabysqa jetu üşin şydam kerek"
+        ]
+      },
+      {
+        "id": 16,
+        "word": "şıdam",
+        "description": "Patience or endurance in difficult situations.",
+        "examples": [
+          "Şıdam bar jerde jetistik bar",
+          "Ol şıdamdy adam",
+          "Şıdam uaqytpen qalıptasady"
+        ]
+      },
+      {
+        "id": 17,
+        "word": "ereje",
+        "description": "Rule that regulates behavior.",
+        "examples": [
+          "Mektepte erejeler bar",
+          "Erejeni saqtau qajet",
+          "Ol oyın erejesin tüsindi"
+        ]
+      },
+      {
+        "id": 18,
+        "word": "qauipsizdik",
+        "description": "Safety; being protected from danger.",
+        "examples": [
+          "Qauipsizdik şaralary küşeydi",
+          "Jol qauipsizdigin saqtau kerek",
+          "Qauipsizdik birinşi orynda"
+        ]
+      },
+      {
+        "id": 19,
+        "word": "tıldesim",
+        "description": "Dialogue or communication between people.",
+        "examples": [
+          "Tıldesim mäseleni şeşedi",
+          "Ashyq tıldesim mańyzdy",
+          "Ol dostarmen tıldesim qurady"
+        ]
+      },
+      {
+        "id": 20,
+        "word": "tınıştıq",
+        "description": "Peace; a state without conflict.",
+        "examples": [
+          "Elimizde tınıştıq bolsyn",
+          "Tınıştıq — halyqtyñ armany",
+          "Otbasında tınıştıq ornadı"
+        ]
+      }
+    ]
+  }
