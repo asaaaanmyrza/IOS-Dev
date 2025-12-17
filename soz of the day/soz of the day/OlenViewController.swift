@@ -11,14 +11,31 @@ class OlenViewController: UIViewController {
     @IBOutlet weak var authorImage: UIImageView!
     
     var olenService = OlenService()
+    private var timer: Timer?
+    private var seconds = 30
     
     override func viewDidLoad() {
         super.viewDidLoad()
         olenService.delegate = self
-        olenService.fetchOlen()
+        
+        startTimer()
     }
-    @IBAction func buttonDidTap(_ sender: UIButton) {
+    
+    func startTimer() {
         olenService.fetchOlen()
+        olenTimer.text = "Kelesi olen: \(seconds)"
+
+        timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [weak self] _ in
+            guard let self = self else { return }
+
+            self.seconds -= 1
+            self.olenTimer.text = "Kelesi olen: \(self.seconds)"
+
+            if self.seconds == 0 {
+                self.seconds = 30
+                self.olenService.fetchOlen()
+            }
+        }
     }
 }
 
